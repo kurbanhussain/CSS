@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+             height: 150px;
+             width: 150px;
+             border-top: 10px solid blue;
+             border-bottom: 10px solid transparent;
+             border-left: 10px solid transparent;
+             border-right: 10px solid transparent;
+             border-radius: 50%;
+             position: relative;
+             margin: 20px auto;
+
+
+             
+             animation:loader 1s infinite;
+             }
+             .sub{
+                height: 100px;
+                width: 100px;
+                border-bottom: 10px solid rgb(182, 199, 247);
+                border-top: 10px solid transparent;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-radius: 50%;
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                animation:loader 1s infinite ;
+             }
+        
+    </style>
+</head>
+<body>
+     <div class="main"></div>
+     <div class="sub"></div>
+</body> 
+</html>

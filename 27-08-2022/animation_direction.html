@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         div{
+              height: 100px;
+              width: 100px;
+              border: 2px solid blue;
+              background-color: rgb(207, 253, 238);
+              margin-left: 10px;
+              margin-top: 20px;
+         }
+         @keyframes move {
+                      form{ 
+                        height: 100px;
+                        width: 100px;
+                        margin-left: 10px;
+                      }
+                      to{ 
+                          margin-left: 100px;
+                      }
+         }
+         .div1{
+               animation: move 2s ease 2s infinite;
+         }
+         .div2{
+               animation: move 2s alternate-reverse 2s infinite;
+               animation-direction: alternate;
+                      }
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+</body>
+</html>

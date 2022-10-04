@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+          img{
+             width: 200px;
+             height: 200px;
+             border: 2px solid blue;
+             margin-top: 100px;
+             margin-left: 40%;
+             margin-right: 40%;
+          }
+          @keyframes image {
+              form{  width: 200px;
+                     height: 200px;
+                }
+              to{
+                     height: 250px;
+                     width: 250px;
+              }
+            }
+            #img1{
+                animation-name: image;
+                animation-timing-function: ease;
+                animation-duration: 5s;
+                animation-delay: 1s;
+                animation-iteration-count: 2; 
+                
+            }
+          
+    </style>
+</head>
+<body> 
+      <img src="image.jpg" alt="" id="img1">
+</body>
+</html>
