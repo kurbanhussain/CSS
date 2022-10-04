@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         div{
+             width: 300px;
+             height: 200px;
+             border: 1px solid black;
+             padding: 20px;
+             margin: 50px auto;
+             line-height: 25px;
+         }
+         div::first-letter{
+             font-size: 30px;
+             color: blue;
+             width: 100px;
+             height: auto;
+            }
+            div::first-line {
+                  font-size: 20px;
+                  color: ;
+            }
+            div::after{
+                 content: url(img.jpg);
+            }
+            div::before{
+                 content: url(img.jpg);
+            }            
+       
+    </style>
+</head>
+<body>
+    <div>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos temporibus dignissimos dicta nulla aliquam dolores alias quas animi, nesciunt suscipit enim omnis, ut et possimus. Aperiam temporibus sequi reprehenderit fugiat.
+    </div>
+    <!-- <div class="div1"> 
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat maiores iste itaque, veritatis quibusdam eligendi, aliquid, deleniti repellendus veniam dolor laboriosam sint amet accusantium numquam. Cumque fuga dolorem vel autem.
+    </div> -->
+</body>
+</html>
