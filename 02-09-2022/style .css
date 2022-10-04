@@ -1,0 +1,70 @@
+body {
+     background-image: url(ba.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+H1{
+      background-color: antiquewhite;
+}
+.Register{
+     width: 50%;
+     height: auto;
+     border-radius: 30px;
+     box-shadow: 5px 10px 10px black;
+     margin: 50px auto;
+     padding: 20px;
+     background-color:snow;
+}
+form{
+     margin-left: 150px;
+     margin-right: 150px;
+}
+h1{
+     text-align: center;
+}
+input[type="text"]{
+     height: 20px;
+     width: 300px; 
+     box-shadow: 1PX 1PX 1PX black;
+     border-radius: 5PX;
+     background-color:rgb(214, 211, 211);
+     
+}
+select{
+     height: 25px;
+     width: 300px;
+     background-color:rgb(214, 211, 211);
+     box-shadow: 1PX 1PX 1PX black;
+}
+div{
+     line-height: 30px;
+     font-weight: bold;
+}
+.button {
+     width: 300PX;
+     height: 25px;
+     border-radius: 10px;
+     background-color:transparent;
+     color: black;
+     font-weight: bold;
+     margin-left: auto;
+     margin-right: auto;
+     
+}
+.button:hover{
+      background-color: rgb(92, 92, 223);
+       color: white;
+}
+input[type="Date"]{
+       width: 300px;
+       height: 25px;
+       background-color:rgb(214, 211, 211);
+       box-shadow: 1PX 1PX 1PX black;
+}
+input[type="checkbox"]{
+      width: 15px;
+      height: 15px;
+      margin-left: 20px;
+      background-color: green
+      ;
+}
