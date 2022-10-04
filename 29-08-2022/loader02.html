@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loader Prc 2</title>
+    <style>
+        h2{
+             background-color: aqua;
+            color: wheat;
+            text-align: center;
+            text-shadow: 2px 2px 2px black;
+        }
+        .main{
+             width: 200px;
+             height: 200px;
+             border-top: 10px solid red;
+             border-bottom: 10px solid transparent;
+             border-left: 10px solid transparent;
+             border-right: 10px solid transparent;
+             border-radius: 50%;
+             position: relative;
+             animation: loader 1s infinite;
+             margin: 20px auto;
+            }
+            .sup{
+                width: 100px;
+                height: 100px;
+                border-bottom: 10px solid greenyellow;
+                border-top: 10px solid transparent;
+                border-left: 10px solid transparent;
+                 border-right: 10px solid transparent;
+                border-radius: 50%;
+                position: relative;
+                animation: loader 1s infinite;
+                top: 20px;
+                left: 20px;
+            }
+            @keyframes loader {
+                     100%{
+                         transform: rotate(360deg);
+                     }
+            }
+            
+      
+    </style>
+</head>
+<body>
+      <h2>Loader prc 02</h2>
+      <div class="main">
+        <div class="sup"> </div>
+      </div>
+</body>
+</html>

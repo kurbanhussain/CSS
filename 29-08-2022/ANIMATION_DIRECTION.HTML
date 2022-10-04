@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Direction</title>
+    <style>
+       
+       @keyframes img1 {
+                 form{ 
+                    height: 150px;
+                    width: 150px;
+                    margin-left: 10px;
+                 }
+                 to{ 
+                     margin-left: 100px;
+                 }
+                }
+        @keyframes img2 {
+                 form{ 
+                    height: 150px;
+                    width: 150px;
+                    margin-left: 10px;
+                 
+                 }
+                 to{ 
+                     margin-left: 200px;
+                 }
+                }
+                .img{
+                     animation: img1 2s linear 2s infinite;
+                }
+                #img1{
+                     animation: img2 2s ease 2s infinite;
+                     animation-direction: alternate-reverse;
+                }
+        
+      
+    </style>
+</head>
+<body>
+      
+    <div class="img">
+        <img src="1.jpg" alt="Nike" width="150px"height="150px" >
+    </div>
+    <br>
+    <div id="img1">
+        <img src="2.jpg" alt="Adiddas"width="150px"height="150px">
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loader Css Practice</title>
+    <style>
+        h1{
+            background-color:whitesmoke;
+            color: white;
+            text-shadow: 3px 3px 3px red;
+            text-align: center;
+        }
+        .main{ 
+            height: 150px;
+            width: 150px;
+            border-top: 10px solid aqua;
+            border-bottom: 10px solid transparent;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-radius: 50%;
+            margin: 20px auto;
+            animation: loader 1s infinite;
+            position: relative;
+        }
+        .sub{
+             height: 100px;
+             width: 100px;
+             border-bottom: 10px solid aquamarine;
+             border-top: 10px solid transparent;
+             border-left: 10px solid transparent;
+             border-right: 10px solid transparent;
+             border-radius: 50%;
+             top: 20px;
+             left: 20px;
+             animation:loader 1s infinite;
+             position: absolute;
+            /* margin: 50px auto; */
+           }
+       @keyframes loader{
+             100% {
+                  transform: rotate(360deg);
+             }
+        }
+    </style>
+</head>
+<body>
+     <h1>Loader Css Practice</h1>
+     <div class="main">
+     <div class="sub"></div>
+    </div>
+</body>
+</html>
