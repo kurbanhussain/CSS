@@ -1,0 +1,30 @@
+body {
+     background-image: url(background.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.Register{
+     width: 50%;
+     height: auto;
+     margin: 50px auto;
+     padding: 20px;
+     background-color: white;
+}
+form{
+     margin-left: 50px;
+     margin-right: 50px;
+}
+h1{
+     text-align: center;
+}
+input[type="text"]{
+     height: 20px;
+     width: 300px;
+}
+select{
+     height: 20px;
+     width: 300px;
+}
+div{
+     line-height: 25px;
+}
