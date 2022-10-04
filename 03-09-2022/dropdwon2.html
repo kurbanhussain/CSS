@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .hed{
+         background-color: aquamarine;
+         list-style: none;
+    }
+    li{
+          display: inline-block;
+          padding: 20px;
+          font-size: 20px;
+          /* font-weight: bolder; */
+    }
+    a{
+         text-decoration: none;
+    }
+    li:hover a:hover{
+           color: black;
+           background-color: azure;
+    }
+    ul ul {
+           position: absolute;
+           width: 200px;
+           display: none;
+    }
+    ul li:hover ul{
+        display: block;
+    }
+</style>
+</head>
+<body>
+       <div class="hed"> 
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Service</a>
+                <ul>
+                    <li><a href="">Service 1</a></li>
+                    <li><a href="">Service 2</a></li>
+                    <li><a href="">Service 3</a></li>
+                </ul>
+            </li>
+                <li><a href="">Help</a></li>
+                <li><a href="">About</a>
+                <ul>
+                    <li><a href="">About 1</a></li>
+                    <li><a href="">About 2</a></li>
+                    <li><a href="">About 3</a></li>
+
+                </ul>
+            </li>
+
+            </ul>
+       </div>
+</body>
+</html>
