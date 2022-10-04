@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Css Practice</title>
+     <style>
+        h2{
+             background-color: gray;
+             color:white;
+             text-align: center;
+             text-decoration: double;
+             font-size: 40px;
+             text-shadow: 5px 5px 5px black;
+        }
+        table{
+              border: 3px solid black;
+              font-size: 30px;
+              text-align: center;
+              border-collapse: collapse;
+              width: 50%;
+              margin-left: auto;
+              margin-right: auto;
+            }   
+              
+              
+        
+        td{ 
+            border: 2px solid black;
+            border-bottom: 1px solid black;
+
+        }
+        tr:nth-child(even){
+                background-color: aquamarine;            
+
+        }
+        tr:nth-child(odd){ 
+              
+            background-color: bisque;
+        }
+       
+     </style>
+    
+</head>
+<body>
+      <h2><b>Table Css Practice</b></h2>
+      <table>
+       
+        
+        <tr>
+            <td>Sr no </td>
+            <td>Name </td>
+            <td>Address </td>
+            <td>State</td>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Mahi</td>
+            <td>Kochhi</td>
+            <td>Tamil Nadu</td>
+
+        </tr>  
+        <tr>
+            <td>2</td>
+            <td>Rohit</td>
+            <td >Mumbai</td>
+            <td colspan="2" rowspan="2">Maharastra</td>
+
+        </tr>  
+        <tr>
+            <td>3</td>
+            <td>Rutu</td>
+            <td>Mumbai</td>
+            <!-- <td>Maharastra</td> -->
+
+
+        </tr> 
+         <tr>
+            <td>4</td>
+            <td>Mohd siraj</td>
+            <td>Hyderabad</td>
+            <td>Andhra Pradesh</td>
+
+
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Ravindra Jdeja</td>
+            <td>Rajkot</td>
+            <td colspan="3" rowspan="3">Gujrat</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Irfan Pathan</td>
+            <td>Vadodara</td>
+            <!-- <td>Gujrat</td> -->
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Munaf Patel</td>
+            <td>Bharuchh</td>
+            <!-- <td>Gujrat</td> -->
+        </tr>
+
+
+        
+      </table>
+    
+</body>
+</html>
