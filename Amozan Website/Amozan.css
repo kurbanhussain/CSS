@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(32, 31, 31);
+    
+}
+.main{
+    display: flex;
+    margin-left: 40px;
+}
+header .logo{
+    width: 10%;
+}
+.logo img{
+    width: 110px;
+    padding: 15px;
+}
+.logo img a{
+    color: white;
+}
+.main .loc{
+    /* width: 13%; */
+    display: flex;
+    
+}
+.main .loc span{
+    color: white;
+    margin-top: 23px;
+    font-size: 16px;
+}
+.main .add-hello{
+ padding: 5px;
+ margin-top: 8px;
+}
+.main .loc p{
+    color: rgb(161, 157, 157);
+    font-size: 14px;
+}
+.main .loc h5{
+    color: white;
+    font-size: 15px;
+}
+.main .btn {
+    padding: 10px;
+    display: flex;
+    margin-left: 5px;
+}
+
+.main .bt1 button {
+    width: 50px;
+    height: 39px;
+    padding: 6px;
+    border-radius: 5px;
+}
+.main .bt1 span {
+    padding: 5px;
+}
+.main .bt2 button{
+    width: 500px;
+    height: 39px;
+    /* margin-top: 2px; */
+    border-radius: 5px;
+}
+.main .bt3 button{
+     width: 50px;
+     height: 39px;
+     border-radius: 5px;
+     background-color: orange;
+}
+.main .bt3 span{
+    font-size: 18px;
+    color: black;
+}
+.main .contry {
+    padding: 5px;
+}
+.main .contry p{
+    color: white;
+    padding: 4px;
+    font-size: 14px;
+}
+.main .contry img{
+    width: 24px;
+    height: 14px;
+    margin-left: 11px;
+}
+.main .contry span{
+    color:grey;
+    /* padding:2px; */
+    margin-left: 4px;
+}
+.main .sing {
+    padding: 10px;
+}
+.main .sing p{
+    color:white;
+    font-size: 13px;
+}
+.main .sing h6{
+    color: white;
+    pad:5px;
+}
+.Returns{
+    padding: 13px;
+}
+.Returns h6{
+    color: white;
+    font-size: 12px
+}
+.Returns h5{
+    color: white;
+    font-size: 14px;
+}
+.cart{
+    display: flex;
+    padding: 12px;
+}
+.cart span{
+    color:white;
+    font-size: 28px;
+}
+.cart h5{
+    color: white;
+    margin-top: 11px;
+    font-size: 17px;
+}
+.all{
+   background-color:rgba(0, 0, 0, 0.642);
+   height: 43px;
+   display:flex;
+}
+.all span {
+    color: white;
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 15px;
+}
+.all span:hover{
+    border: 1px solid white;
+}
+.menu{
+    /* margin-left: 10px; */
+}
+.menu ul  {
+      list-style: none;
+}
+.menu li {
+    display: inline;
+    margin-left: 10px;
+}
+.menu a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.menu li:hover{
+    border: 1px solid white;
+}
+.menu span{
+    margin-left: -1px;
+}
+.Prime{
+    margin-left: 15px;
+}
+.Prime img{
+    width:273px;
+    height: 42px;
+}
+.bxslider{
+    display: flex;
+    position: relative;
+    
+}
+
+.bx-wrapper{
+    padding: 0px;
+    margin: 0px;
+}
+.bxslider img {
+    width: 100%; 
+    height:900px;
+    padding: 0px;
+    margin: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pos{
+    position: absolute;
+    top:80%;
+}
+.main{
+    display: flex;
+}
+ 
+.box{
+    background-color: rgb(246, 235, 235);
+    border: 2px solid transparent;
+    margin-left: 10px;
+    width: 300px;
+    height: 360px;
+    padding: 15px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.box h2{
+    font-size: 23px;
+    color: black;
+}
+.Product img{
+    margin-top: 20px;
+    width: 130px;
+    height: 110px;
+    margin-left: 5px;
+}
+.Product h5{
+    margin-left: 2px;
+    font-size: 12px;
+}
+.sing-in{
+    margin-left: 10px;
+}
+.sing-in .box-1{
+    padding: 25px;
+    width: 190px;
+    height: 140px;
+    background-color: rgb(246, 235, 235)
+}
+.sing-in .box-1 h1{
+    font-size:19px;
+    margin-top: 15px;
+}
+.sing-in .box-1 button{
+    width: 185px;
+    height: 30px;
+    margin-left: 2px;
+    margin-top: 25px;
+    border: none;
+    background-color: orange;
+    border-radius: 10px;
+}
+.img{
+    margin-top: 15px;
+}
+.img img {
+    width: 235px;
+    height: 190px;
+}
+.main1{
+    display: flex;
+    margin-left: 27px;
+    padding: 12px;
+}
