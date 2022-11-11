@@ -7,17 +7,17 @@ body{
     margin: 0;
     padding: 0;
     top: 0px;
-    
+    background-color: aliceblue;
 }
 header{
     width: 100%;
     height: 60px;
     background-color: rgb(32, 31, 31);
-    
+   
 }
 .main{
     display: flex;
-    margin-left: 40px;
+    margin-left: 90px;
 }
 header .logo{
     width: 10%;
@@ -142,8 +142,9 @@ header .logo{
 }
 .all span {
     color: white;
-    margin-left: 50px;
+    margin-left: 99px;
     padding: 10px;
+    margin-top: 5px;
     font-size: 15px;
 }
 .all span:hover{
@@ -180,13 +181,9 @@ header .logo{
 .bxslider{
     display: flex;
     position: relative;
-    
 }
 
-.bx-wrapper{
-    padding: 0px;
-    margin: 0px;
-}
+
 .bxslider img {
     width: 100%; 
     height:900px;
@@ -198,10 +195,11 @@ header .logo{
 }
 .pos{
     position: absolute;
-    top:80%;
+    top:65%;
 }
-.main{
+.main2{
     display: flex;
+    margin-left: 100px;
 }
  
 .box{
@@ -256,11 +254,138 @@ header .logo{
     margin-top: 15px;
 }
 .img img {
-    width: 235px;
+    width: 240px;
     height: 190px;
 }
 .main1{
     display: flex;
-    margin-left: 27px;
+    margin-left: 87px;
     padding: 12px;
+}
+.sec1{
+    margin-top: 20%;
+    /* background-color:; */
+    padding: 10px;
+}
+.sec1 h3{
+    margin-left: 60px;
+    font-size:25px;
+    padding: 5px;
+}
+.owl-carousel img{
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.owl-carousel span{
+    background-color: rgba(165, 42, 42, 0.915);
+    padding: 4px;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.owl-carousel h4{
+    font-size: 15px;
+    color:  rgba(165, 42, 42, 0.915);
+}
+.owl-carousel p{
+    margin-top: 8px;
+    margin-left: 12px;
+    font-size: 15px;
+}
+.sec2{
+    padding: 20px;
+}
+.sec2 h2{
+    font-size: 18px;
+    background-color: white;
+
+}
+.sec2 .prc{
+    display: flex;
+    background-color: white;
+}
+.sec2 h2{
+    font-size: 20px;
+    padding: 10px;
+}
+.sec2 .imgs{
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.sec2 .prc img{
+    transition: 1s all ease;
+}
+.sec2 .prc img:hover{
+    transform: translateY(-15px);
+}
+
+.sec3{
+    padding: 20px;
+}
+.sec3 .sell-1 {
+    display: flex;
+    
+}
+.sec3 .bos{
+    /* border: 2px solid black; */
+    background-color: white;
+    width: 330px;
+    height: 460px;
+    padding: 10px;
+}
+.sec3 .bos h2{
+    margin-top: 10px;
+    font-size:22px;
+    font-weight: 200;
+    margin-left: 12px;
+}
+.bos{
+    margin-left: 10px;
+}
+.sec3 .bos img{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+.sec3 .bos p{
+    margin-left: 20px;
+    color: lightseagreen;
+    margin-top: 20px;
+}
+.sec3 .bos p:hover{
+    color: brown;
+}
+.img-er{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.img-er .elc-img img{
+    width: 130px;
+    height: 110px;
+}
+.img-er .elc-img h6{
+    font-size: 13px;
+    font-weight: 100;
+    margin-left: 20px;
+}
+.sec4 .prc1{
+    display: flex;
+}
+.sec4 h2{
+    margin-left: 24px;
+    padding: 10px;
+    background-color: white;
+}
+.sec4 .prc1{
+    margin-left: 25px;
+}
+.sec4 .prc1 img{
+    margin-left: 15px;
+    transition: 1s all ease;
+}
+.sec4 .prc1 img:hover{
+    transform:translateY(-15px );
 }
